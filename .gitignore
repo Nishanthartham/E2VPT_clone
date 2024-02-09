@@ -1,0 +1,217 @@
+GIT_TOKENS.md
+run_examples.sh
+*.npy
+*.zip
+
+# General
+.DS_Store?
+.DS_Store
+.AppleDouble
+.LSOverride
+
+#E2VPT
+imagenet21k_ViT-B_16.npz
+
+#Datasets
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+/models
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
+#   However, in case of collaboration, if having platform-specific dependencies or dependencies
+#   having no cross-platform support, pipenv may install dependencies that don't work, or not
+#   install all needed dependencies.
+#Pipfile.lock
+
+# PEP 582; used by e.g. github.com/David-OConnor/pyflow
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+/output
+/output_fgvc
+/output_finalfinal
+/output_val
+/output_val_fgvc
+/output_fgvc_finalfinal
+/apex
+/output_saved_forexp
+/output_before_pruning
+/output_copy
+/output_rewind
+/output_fgvc_before_pruning
+/output_fgvc_rewind
+/nabirds
+*.png
+*.csv
+results_heatmap.py
+plot.py
+train_save.py
+/_finalfinal
+/_val
+/plot_functions/output_folder
+/plot_functions/output_folderACC
+/A_test_as_before_pruning
+/A_test_as_finetune_before_pruning
+/A_test_as_finetune_val
+/A_test_as_val
+/DatasetChanged8000-2000FineTune_finalfinal
+/DatasetChanged8000-2000FineTune_val
+/DatasetChanged8000-2000_val
+/DatasetChanged8000-2000_finalfinal
+/DatasetChanged400-100_Finetune_finalfinal
+/DatasetChanged400-100_Finetune_val
+/DatasetChanged400-100_finalfinal
+/DatasetChanged400-100_val
+/plot_functions/8000-2000
+/plot_functions/output_folderACC_saved
+/plot_functions/output_folder_saved
+/8000-2000
+
+/IG_VIS_attribution
+/IG_VIS_val
+/NT_VIS_val
+/CAM_VIS_attribution
+/CAM_VIS_finetune_attribution
+/CAM_VIS_finetune_val
+/CAM_VIS_val
+/IG_VIS_abs_finetune_attribution
+/IG_VIS_abs_finetune_val
+/IG_VIS_absolute_attribution
+/IG_VIS_absolute_val
+/IG_VIS_new_val
+/OCC_VIS_new_attribution
+/OCC_VIS_new_finetune_attribution
+/OCC_VIS_new_finetune_val
+/OCC_VIS_new_val
+/fewshot_finetune_finalfinal
+/fewshot_finetune_val
+/fewshot_prompt_finalfinal
+/fewshot_prompt_val
+/plot_functions/cifar100_400-100
+/plot_functions/cifar100_8000-2000
+/IG_VIS_abs_finetune_attribution_save
+/IG_VIS_absolute_attribution_save
+/ft_pt_finalfinal
+/ft_pt_val
+/origin_mixed
+/plot_functions
+/pt_origin_val
+tune_vtab_PruningRewind_CVK_imagenet1k.py
